@@ -154,4 +154,4 @@ def getInformation(name, buy, sale):
 buy, sale = open_all_pdfs("reports")
 
 print(buy['Name'].unique())
-getInformation('SONALIANSH', buy, sale)
+getInformation(buy['Name'][0], buy, sale)
